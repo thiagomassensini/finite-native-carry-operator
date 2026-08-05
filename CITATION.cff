@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this finite-operator laboratory, cite the versioned software release."
+title: "Finite Native Carry Operator"
+type: software
+authors:
+  - family-names: Massensini
+    given-names: Thiago
+repository-code: "https://github.com/thiagomassensini/finite-native-carry-operator"
+url: "https://github.com/thiagomassensini/finite-native-carry-operator"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-08-05
+abstract: >-
+  An audit-oriented real-plane laboratory and Lean 4 formalization for finite
+  native carry operators, including all-base centered camera geometry,
+  CPU/CUDA discovery, arbitrary-precision Ridder localization without Newton,
+  cutoff convergence ledgers, dyadic asymptotic tail correction, and formal
+  interfaces for future interval certification.
+keywords:
+  - finite operator
+  - carry geometry
+  - centered differences
+  - real plane
+  - CUDA
+  - arbitrary precision
+  - Ridder method
+  - interval certification
+  - Lean 4

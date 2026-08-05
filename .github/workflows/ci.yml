@@ -1,0 +1,32 @@
+name: Audit finite native carry operator
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - .release/**
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+jobs:
+  python-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - run: python3 -m pip install --disable-pip-version-check -r requirements.txt
+      - run: bash scripts/run_python_audits.sh
+
+  lean-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9 # v1.5.0
+        with:
+          use-github-cache: true
+          use-mathlib-cache: true
+      - run: lake build --wfail FiniteNativeCarryOperator

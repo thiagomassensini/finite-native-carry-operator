@@ -1,0 +1,184 @@
+{
+  "claims": {
+    "all_entries_bound_the_same_limiting_stationary_point": true,
+    "determinant_upper_bounds_strictly_contract_across_entries": true,
+    "finite_nested_contraction_ladder_certified": true,
+    "infinite_vanishing_bound_family_certified": false,
+    "limiting_vector_zero_certified": false,
+    "resultant_energy_upper_bounds_strictly_contract_across_entries": true,
+    "resultant_upper_bounds_strictly_contract_across_entries": true
+  },
+  "entries": [
+    {
+      "certificate_claims": {
+        "limiting_first_derivative_nonzero_on_domain": true,
+        "limiting_vector_zero_certified": false,
+        "oriented_C3_tail_enclosed_through_second_time_derivative": true,
+        "stationary_determinant_has_certified_small_absolute_value": true,
+        "stationary_resultant_has_certified_small_norm": true,
+        "strict_limiting_minimum_in_domain": true,
+        "unique_limiting_stationary_point_in_domain": true
+      },
+      "certificate_path": "certificates/c3/c3_m16364_oriented_limit_minimum.json",
+      "certificate_sha256": "82bd00c587a3ae556ee01c08202c92c700fb61db26dc5d395fa899b4fa9c3e2f",
+      "cutoff": 16364,
+      "determinant_abs_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -140,
+        "significand_integer": "1161960093093658749947325730602889594279514556779066835488322433015360029037952710104043145681583912429407219616422934367390726"
+      },
+      "domain": {
+        "exact_decimal_lower": "92.491899270558483805857220904387963299360620986373",
+        "exact_decimal_upper": "92.491899270558484805857220904387963299360620986373",
+        "requested_center": "92.491899270558484305857220904387963299360620986373",
+        "requested_radius": "5e-16"
+      },
+      "oriented_resultant_tail_remainder_upper": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -142,
+        "significand_integer": "1071831344172477544206853600878210137443597312976311903428480316384249931681712259276218661449110315973846378108185973300232653"
+      },
+      "resultant_energy_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -282,
+        "significand_integer": "6301280194929088736042684932268676708417326260146322983317247157692363423257222215372948625533753143231004539181819247113981825137809885528809139406560180012123169546478774987531784377916461707930799635638290638565311996751226463440089895317768611026116"
+      },
+      "resultant_norm_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -141,
+        "significand_integer": "2510235087582254463305504874458297137586141269713921317299065094578524292627803425138186505718157654350391086732146643867165454"
+      }
+    },
+    {
+      "certificate_claims": {
+        "limiting_first_derivative_nonzero_on_domain": true,
+        "limiting_vector_zero_certified": false,
+        "oriented_C3_tail_enclosed_through_second_time_derivative": true,
+        "stationary_determinant_has_certified_small_absolute_value": true,
+        "stationary_resultant_has_certified_small_norm": true,
+        "strict_limiting_minimum_in_domain": true,
+        "unique_limiting_stationary_point_in_domain": true
+      },
+      "certificate_path": "certificates/c3/c3_m65536_oriented_limit_minimum.json",
+      "certificate_sha256": "372822cb84dc70aedf7d6c05f087a5543f7e14cba9ece0856d70f0d3caebd558",
+      "cutoff": 65536,
+      "determinant_abs_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -155,
+        "significand_integer": "76900471005243619255611359646118009354738367885257199604723934440630376444572827355728777608192947022284924732287219427863137418872615874"
+      },
+      "domain": {
+        "exact_decimal_lower": "92.4918992705584842962397155468528884029675705307387422925724637743157336566238081857676702969669843062152109549549719933",
+        "exact_decimal_upper": "92.4918992705584842962797155468528884029675705307387422925724637743157336566238081857676702969669843062152109549549719933",
+        "requested_center": "92.4918992705584842962597155468528884029675705307387422925724637743157336566238081857676702969669843062152109549549719933",
+        "requested_radius": "2e-20"
+      },
+      "oriented_resultant_tail_remainder_upper": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -156,
+        "significand_integer": "51997942377889349813192770365644291824207497042865865025738132860352409191913615678152421868612728328514166083721153814185102188614745528"
+      },
+      "resultant_energy_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -310,
+        "significand_integer": "275997002740537615464076363998280832913249468050112519766743612673958161407439831313272583646179296929074327021160299084760115373811729129857437181609466339938213432113154637711105136710305716627799793515858885552543152110583780399612891768075913429606511319757961791323561"
+      },
+      "resultant_norm_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -155,
+        "significand_integer": "16613157518681920192325336767735684351045881339660654011885281162748015404317684953193175447590894516282164081935906891781771577210902669"
+      }
+    },
+    {
+      "certificate_claims": {
+        "limiting_first_derivative_nonzero_on_domain": true,
+        "limiting_vector_zero_certified": false,
+        "oriented_C3_tail_enclosed_through_second_time_derivative": true,
+        "stationary_determinant_has_certified_small_absolute_value": true,
+        "stationary_resultant_has_certified_small_norm": true,
+        "strict_limiting_minimum_in_domain": true,
+        "unique_limiting_stationary_point_in_domain": true
+      },
+      "certificate_path": "certificates/c3/c3_m131072_oriented_limit_minimum.json",
+      "certificate_sha256": "6fb9122ce9241546a384ee3701ea3b96e2cda9fd80a63c88a2af6efe0b2e5460",
+      "cutoff": 131072,
+      "determinant_abs_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -176,
+        "significand_integer": "1609749857677499198820838149640504930706807583736143081784713098758814339900983606299697467798348717524887788910992365935655338723280691031402550136938038555"
+      },
+      "domain": {
+        "exact_decimal_lower": "92.49189927055848429625932526080066689773845360743398233890408510507117324865543382408992156984965986176694283499907180466152403782594550214486085940625812245750",
+        "exact_decimal_upper": "92.49189927055848429626012526080066689773845360743398233890408510507117324865543382408992156984965986176694283499907180466152403782594550214486085940625812245750",
+        "requested_center": "92.49189927055848429625972526080066689773845360743398233890408510507117324865543382408992156984965986176694283499907180466152403782594550214486085940625812245750",
+        "requested_radius": "4e-22"
+      },
+      "oriented_resultant_tail_remainder_upper": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -177,
+        "significand_integer": "1149050261942962777139287687747873675008430374673799024169487247277567952596289068956388515292196025671550092249895950480665861853399416955434256731443678447"
+      },
+      "resultant_energy_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -354,
+        "significand_integer": "12093810432985416397498353757045340937588168053481050934057682878321384393562174940215169087272815918519944511892008304387141040400189079655845134810118429930680320296967802291463416810431800944370230435594465097314024881760535272655871887632593324287432621726376061047001149706966661761065812707619545726708124816"
+      },
+      "resultant_norm_upper_at_shared_stationary_point": {
+        "exact_value_law": "significand_integer * 10^exponent10",
+        "exponent10": -177,
+        "significand_integer": "3477615624675248148275859266627127983554696751556293785908851918554135723217002827712054999213927399557321412452286639612128771326895104775859590239905470604"
+      }
+    }
+  ],
+  "exact_zero_bridge": {
+    "current_missing_obligation": "extend the finite ladder to a cutoff-uniform family and prove its resultant-energy upper bound tends to zero",
+    "lean_contract": "VanishingLimitResidualCertificate.witness_zero",
+    "sufficient_condition": "one fixed limiting stationary point with nonnegative resultant-energy upper bounds tending to zero"
+  },
+  "schema": "org.native-carry.real-oriented-contraction-ladder/v1",
+  "scope": {
+    "camera": 3,
+    "coordinate_field": "R^2",
+    "limit_object": "C3 seed plus all radius-one centered brackets at centers 3*m for integers m >= 1",
+    "theory_scope": "native_real_operator_only"
+  },
+  "source_hashes": {
+    "ladder_builder": {
+      "path": "certification/c3_contraction.py",
+      "sha256": "8857bf80d2a3297e995dc081b6e1f937432269a4539be94478401b5dee3addbb"
+    },
+    "oriented_certifier": {
+      "path": "certification/c3_oriented_tail.py",
+      "sha256": "1fc0adf3742e0bec1bdb732dc757ffacaff1ff49b26ba0ce5e8e762e80478572"
+    }
+  },
+  "status": "CERTIFIED_FINITE_ORIENTED_CONTRACTION_LADDER",
+  "transitions": [
+    {
+      "determinant_bound_strictly_contracts": true,
+      "determinant_contraction_factor_display": "1.51099216676374852599E+4",
+      "from_cutoff": 16364,
+      "refined_domain_is_subset": true,
+      "resultant_bound_strictly_contracts": true,
+      "resultant_contraction_factor_display": "1.51099216675663910142E+4",
+      "resultant_energy_bound_strictly_contracts": true,
+      "same_stationary_point_reason": "the refined interval is contained in the previous interval; both certificates prove existence and uniqueness for the same limiting stationary equation",
+      "tail_remainder_contraction_factor_display": "2.06129568816985231926E+3",
+      "tail_remainder_strictly_contracts": true,
+      "to_cutoff": 65536
+    },
+    {
+      "determinant_bound_strictly_contracts": true,
+      "determinant_contraction_factor_display": "4.77716898923621632148E+1",
+      "from_cutoff": 65536,
+      "refined_domain_is_subset": true,
+      "resultant_bound_strictly_contracts": true,
+      "resultant_contraction_factor_display": "4.77716898923621401304E+1",
+      "resultant_energy_bound_strictly_contracts": true,
+      "same_stationary_point_reason": "the refined interval is contained in the previous interval; both certificates prove existence and uniqueness for the same limiting stationary equation",
+      "tail_remainder_contraction_factor_display": "4.52529746522702188058E+1",
+      "tail_remainder_strictly_contracts": true,
+      "to_cutoff": 131072
+    }
+  ]
+}

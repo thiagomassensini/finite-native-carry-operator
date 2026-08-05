@@ -1,0 +1,127 @@
+{
+  "ledgers": [
+    {
+      "camera": 3,
+      "cutoff": 16364,
+      "path": "certificates/c3/c3_m16364_raw_minimum.json",
+      "role": "real interval certificate for a unique strict finite minimum and finite vector-zero exclusion"
+    },
+    {
+      "camera": 3,
+      "cutoff": 16364,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_m16364_tail_limit_minimum.json",
+      "role": "uniform real tail bounds, a unique strict limiting-energy minimum, and exact reduction of the vector zero to one real determinant"
+    },
+    {
+      "camera": 3,
+      "cutoff": 16364,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_m16364_oriented_limit_minimum.json",
+      "role": "oriented fifth-order tail boundary jet, radius-5e-16 limiting minimum, and certified small resultant bound"
+    },
+    {
+      "camera": 3,
+      "cutoff": 65536,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_m65536_oriented_limit_minimum.json",
+      "role": "cutoff reinforcement of the oriented limiting minimum at radius 2e-20 with a 1.661316e-19 resultant bound"
+    },
+    {
+      "camera": 3,
+      "cutoff": 131072,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_m131072_oriented_limit_minimum.json",
+      "role": "third oriented reinforcement at radius 4e-22 with a 3.477616e-21 resultant bound"
+    },
+    {
+      "camera": 3,
+      "cutoffs": [
+        16364,
+        65536,
+        131072
+      ],
+      "infinite_vanishing_bound_family_certified": false,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_oriented_contraction_ladder.json",
+      "role": "finite nested contraction ladder for one limiting stationary point with exact squared energy bounds"
+    },
+    {
+      "camera": 3,
+      "cutoffs": [
+        16364,
+        65536,
+        131072
+      ],
+      "core_residual_infinite_vanishing_family_certified": false,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_uniform_residual_decomposition.json",
+      "tail_component_uniform_decay_certified": true,
+      "role": "three-component stationary residual decomposition with an explicit uniform polynomial tail witness"
+    },
+    {
+      "camera": 3,
+      "cutoffs": [
+        16364,
+        65536,
+        131072
+      ],
+      "corrected_stationary_root_family_constructed_for_all_cutoffs": false,
+      "ideal_corrected_root_radius_witness_tends_to_zero": true,
+      "limiting_vector_zero_certified": false,
+      "path": "certificates/c3/c3_stationary_localization.json",
+      "role": "stationary-equation perturbation ledger with a common slope margin and derived localization radii"
+    },
+    {
+      "arithmetic_agreement_significant_digits": 118,
+      "max_cutoff": 65536,
+      "path": "results/c3/c3_precision_max.json",
+      "role": "fixed-cutoff arithmetic ladder and initial cutoff ladder"
+    },
+    {
+      "max_cutoff": 262144,
+      "path": "results/c3/c3_cutoff_push_262144.json",
+      "role": "cutoff continuation"
+    },
+    {
+      "max_cutoff": 1048576,
+      "path": "results/c3/c3_cutoff_holdout_1048576.json",
+      "role": "first blind asymptotic holdout extension"
+    },
+    {
+      "max_cutoff": 4194304,
+      "path": "results/c3/c3_cutoff_holdout_4194304.json",
+      "role": "second blind asymptotic holdout extension"
+    },
+    {
+      "empirical_radius_is_rigorous": false,
+      "path": "results/c3/c3_native_asymptotic_corrector.json",
+      "recommended_rounded_center": "92.491899270558484",
+      "role": "dyadic tail annihilator and rolling holdout ledger"
+    },
+    {
+      "path": "results/c3/native_carry_cutoff_demo_c3.json",
+      "role": "early cutoff demonstration"
+    },
+    {
+      "path": "results/c3/native_carry_precision_demo_c3_m16364_resultant_dps60.json",
+      "role": "60-digit finite localization witness"
+    }
+  ],
+  "nonclaims": [
+    "The tail certificate proves a limiting-energy minimum; no limiting vector zero is claimed.",
+    "A finite stationary minimum is not silently identified with a vector zero.",
+    "A finite nested contraction ladder is not silently promoted to an infinite vanishing-bound family.",
+    "Uniform decay of the analytic tail component does not establish uniform decay of the corrected-center residual.",
+    "A vanishing-radius formula for ideal corrected roots does not instantiate that root family at every cutoff.",
+    "The asymptotic consensus radius is empirical."
+  ],
+  "operator": {
+    "camera": 3,
+    "coordinate_field": "R^2",
+    "post_bracket_map": "none",
+    "state": "n^(-1/2) * (cos(-t log n), sin(-t log n))"
+  },
+  "release": "v0.1.0",
+  "schema": "org.native-carry.result-ledger-index/v1"
+}

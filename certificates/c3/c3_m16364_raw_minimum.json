@@ -1,0 +1,117 @@
+{
+  "arithmetic": {
+    "backend": "python-flint Arb real balls",
+    "binary_precision_bits": 402,
+    "decimal_digits": 120,
+    "directed_rounding": true,
+    "flint_version": "3.3.1",
+    "python_flint_version": "0.8.0"
+  },
+  "claims": {
+    "finite_vector_zero_absent_from_domain": true,
+    "limiting_zero_certified": false,
+    "strict_finite_minimum_in_domain": true,
+    "unique_stationary_point_in_domain": true
+  },
+  "domain": {
+    "arb_enclosure": {
+      "contains_zero": false,
+      "display": "[92.4918997313646729318371647865593003364402220801509593905439244254417537329198192691432369926151160829334558221387136109639484291248 +/- 1.01e-40]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -134,
+      "midpoint_integer": "9249189973136467293183716478655930033644022208015095939054392442544175373291981926914323699261511608293345582213871361096394842912476683",
+      "radius_integer": "10000000067084186007969912828446982370395265566072581726131476993569308602714341409295458893825"
+    },
+    "exact_decimal_lower": "92.4918997313646729318371647865593003364401220801509593905439244254417537329198192691432369926151160829334558221387136109668994565316748777425877647605599898366177116598",
+    "exact_decimal_upper": "92.4918997313646729318371647865593003364403220801509593905439244254417537329198192691432369926151160829334558221387136109668994565316748777425877647605599898366177116598",
+    "requested_center": "92.4918997313646729318371647865593003364402220801509593905439244254417537329198192691432369926151160829334558221387136109668994565316748777425877647605599898366177116598",
+    "requested_radius": "1e-40"
+  },
+  "enclosures": {
+    "H_at_lower": {
+      "contains_zero": false,
+      "display": "[-2.14267778775509963709538469649312111976879933659168191948606966722590407429286364581732488312849426703158522636013171279052029182273e-39 +/- 8.14e-115]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -175,
+      "midpoint_integer": "-21426777877550996370953846964931211197687993365916819194860696672259040742928636458173248831284942670315852263601317127905202918227313035",
+      "radius_integer": "8137110717557249481821287983473249901513423854275900376875009"
+    },
+    "H_at_upper": {
+      "contains_zero": false,
+      "display": "[2.14267778775509963709538469649312111976924970704525307223028206153635416633192688187987233379414259987230377006589610293754862636707e-39 +/- 8.14e-115]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -175,
+      "midpoint_integer": "21426777877550996370953846964931211197692497070452530722302820615363541663319268818798723337941425998723037700658961029375486263670674440",
+      "radius_integer": "8137126258019843574975492273586072097617488988052311269965825"
+    },
+    "H_prime_on_domain": {
+      "contains_zero": false,
+      "display": "[21.4267778775509963709538469649312111976902451600288348228728283844413489515179202600231456217414264226654054385120394438901652452117 +/- 5.08e-35]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -135,
+      "midpoint_integer": "21426777877550996370953846964931211197690245160028834822872828384441348951517920260023145621741426422665405438512039443890165245211689471",
+      "radius_integer": "50759910179238648271872796631066478743006332001415524056338754906946632362563019120226007359040782337"
+    },
+    "resultant_x_on_domain": {
+      "contains_zero": false,
+      "display": "[-1.43911955668069233623524718793033241364027420542673160864192120542862625191334058214916147562897585745709323601232431777353453178094e-6 +/- 3.35e-37]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -142,
+      "midpoint_integer": "-14391195566806923362352471879303324136402742054267316086419212054286262519133405821491614756289758574570932360123243177735345317809362573",
+      "radius_integer": "3347307163660249800522111023357406547999759107365090229638446457014815415824200492904667906644944753786881"
+    },
+    "resultant_y_on_domain": {
+      "contains_zero": false,
+      "display": "[-1.18855182815268068093541838258144142781603573172121970597029744107830413708953299912497008926951808364888055680454262553326858648305e-6 +/- 3.35e-37]",
+      "exact_enclosure_law": "(midpoint_integer +/- radius_integer) * 10^exponent10",
+      "exponent10": -142,
+      "midpoint_integer": "-11885518281526806809354183825814414278160357317212197059702974410783041370895329991249700892695180836488805568045426255332685864830542524",
+      "radius_integer": "3348498172943583012616773828300593040902444658585120120369746767839004222965537971830236310120923893071873"
+    }
+  },
+  "logic": {
+    "existence": "continuity of finite real sums plus H(lower)<0<H(upper)",
+    "minimum": "F'=2H changes from negative to positive exactly once",
+    "uniqueness": "H' is strictly positive on the full closed interval",
+    "zero_exclusion": "at least one resultant coordinate excludes zero on the full interval"
+  },
+  "operator": {
+    "camera": 3,
+    "coordinate_count": 16365,
+    "cutoff": 16364,
+    "geometry": "natural_saturated_odd_width",
+    "half_range": 1,
+    "largest_center": 49092,
+    "sparse_term_count": 49093
+  },
+  "schema": "org.native-carry.real-interval-minimum/v1",
+  "scope": {
+    "coordinate_field": "R^2",
+    "objective": "raw_resultant_quadratic_energy",
+    "stationary_equation": "H = X*X' + Y*Y' = 0",
+    "stationary_slope": "H' = X'^2 + Y'^2 + X*X'' + Y*Y''",
+    "theory_scope": "finite_native_real_operator_only"
+  },
+  "source_hashes": {
+    "certifier": {
+      "path": "certification/real_interval.py",
+      "sha256": "c3e79bfa7c83896505bc8937cc2520055d9cabe7e2ce253ea3dc6b69a80d6b8c"
+    },
+    "finite_operator": {
+      "path": "laboratory/native_carry_primitive_real_operator_all_bases.py",
+      "sha256": "c68d4bb274f36eb4dc5572afe64394787876f64bc8f2e50573654f2ab712ecee"
+    },
+    "precision_ladder": {
+      "path": "laboratory/native_carry_precision_ladder.py",
+      "sha256": "fb0e7464e60170de6fc85e016c00437bdc0942b877df1b86685dae4e91712d98"
+    }
+  },
+  "status": "REAL_INTERVAL_CERTIFIED_FINITE_MINIMUM",
+  "verified_conditions": {
+    "H_lower_strictly_negative": true,
+    "H_prime_strictly_positive_on_domain": true,
+    "H_upper_strictly_positive": true,
+    "resultant_x_excludes_zero": true,
+    "resultant_y_excludes_zero": true
+  }
+}

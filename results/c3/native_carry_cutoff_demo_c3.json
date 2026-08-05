@@ -1,0 +1,145 @@
+{
+  "arithmetic_ladder": [
+    {
+      "agreement_with_previous_stage": {
+        "decimal_places": null,
+        "significant_digits": null
+      },
+      "bracket_expansions": 0,
+      "camera": 3,
+      "coordinate_count": 8193,
+      "cutoff": 8192,
+      "elapsed_seconds": 6.528734076000092,
+      "energy": "9.04455921146796665218646",
+      "energy_derivative": "-3.339344540590612232021615e-1",
+      "float64_projection": {
+        "high_precision_minus_float64": "6.34851917008233012e-15",
+        "root": "92.49190083161187",
+        "ulp_at_root": "1.4210854715202004e-14"
+      },
+      "function_evaluations": 10,
+      "geometry": "natural_saturated_odd_width",
+      "initial_half_width": "0.00100000000000000000000000000000000",
+      "largest_center": 24576,
+      "minus_log10_score": 15.797433214243396,
+      "objective": "resultant",
+      "raw_resultant_curvature": "4.285283559574504440517293e+1",
+      "requested_dps": 25,
+      "resultant": [
+        "2.650158097645346359108229e-6",
+        "2.188759229352294356075246e-6"
+      ],
+      "resultant_derivative_norm": "4.628859773190890785383987",
+      "resultant_norm": "3.437150695938432469419096e-6",
+      "resultant_norm_sq": "1.181400490659005065482948e-11",
+      "ridder_iterations": 4,
+      "root": "92.4919008316118783843836778618091",
+      "root_bracket_left": "92.4919006237093995119838021351897",
+      "root_bracket_right": "92.4919008316118783843836778618091",
+      "root_bracket_width": "2.07902478872399876e-7",
+      "root_error_estimate": "3.23260946476129065e-37",
+      "score": "1.594288031296345998070854e-16",
+      "search_center": "92.4919000000000000000000000000000",
+      "stationary_numerator": "1.22658342097643505e-37",
+      "unique_state_count": 24577,
+      "work_dps": 40
+    }
+  ],
+  "coarse_candidate": {
+    "half_width": "0.001",
+    "source": "explicit --t",
+    "t_decimal": "92.4919"
+  },
+  "cutoff_ladder": [
+    {
+      "agreement_with_previous_cutoff": {
+        "decimal_places": null,
+        "significant_digits": null
+      },
+      "cutoff": 1024,
+      "drift_from_previous_cutoff": null,
+      "elapsed_seconds": 0.9607734209998853,
+      "resultant_norm": "1.61211859473623080944514858778e-4",
+      "root": "92.491881501298554434424317289406553744",
+      "score": "2.80338274743258598517422555805e-12"
+    },
+    {
+      "agreement_with_previous_cutoff": {
+        "decimal_places": 5,
+        "significant_digits": 7
+      },
+      "cutoff": 2048,
+      "drift_from_previous_cutoff": "4.11310430705289909e-6",
+      "elapsed_seconds": 1.6240503750000244,
+      "resultant_norm": "1.00157795390421207427227115326e-5",
+      "root": "92.491885614402861487323409540275372609",
+      "score": "5.4130234016225436966703577516e-15"
+    },
+    {
+      "agreement_with_previous_cutoff": {
+        "decimal_places": 4,
+        "significant_digits": 6
+      },
+      "cutoff": 4096,
+      "drift_from_previous_cutoff": "1.29438242691647855e-5",
+      "elapsed_seconds": 3.3193905509999695,
+      "resultant_norm": "2.23890425318188282368359465239e-5",
+      "root": "92.491898558227130652108956976050086589",
+      "score": "1.35275029104793420567695034393e-14"
+    },
+    {
+      "agreement_with_previous_cutoff": {
+        "decimal_places": 5,
+        "significant_digits": 7
+      },
+      "cutoff": 8192,
+      "drift_from_previous_cutoff": "2.27338474773227472e-6",
+      "elapsed_seconds": 6.599702450999985,
+      "resultant_norm": "3.43715069593843246941909596777e-6",
+      "root": "92.491900831611878384383677861809145991",
+      "score": "1.59428803129634599807085355838e-16"
+    }
+  ],
+  "interpretation": {
+    "finite_cutoff": true,
+    "interval_arithmetic": false,
+    "newton": false,
+    "operator_changed": false,
+    "root_solver": "bracketed Ridder on the stationary numerator",
+    "tiny_score_is_not_a_digit_count": true
+  },
+  "operator": {
+    "bracket_count": 8192,
+    "camera": 3,
+    "coordinate_count": 8193,
+    "coordinate_field": "R^2",
+    "cutoff": 8192,
+    "geometry": "natural_saturated_odd_width",
+    "half_range": 1,
+    "largest_center": 24576,
+    "post_bracket_map": "none",
+    "score": "norm(R)^2 / (N * sum_e norm(z_e)^2)",
+    "seed_count": 1,
+    "state": "n^(-1/2) * (cos(-t log n), sin(-t log n))",
+    "unique_state_count": 24577
+  },
+  "runtime": {
+    "elapsed_seconds": 19.08542421300001,
+    "mpmath": "1.3.0",
+    "platform": "Linux-6.12.13-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "script_sha256": "90f908c347021362789fa53959928f46139d849b10ba0c3227e20aec3c22c72e"
+  },
+  "schema": "org.native-carry.primitive-r2-precision-ladder/v1",
+  "status": "FINITE_NATIVE_CARRY_R2_PRECISION_AUDIT",
+  "verdict": {
+    "arithmetic_agreement_decimal_places": null,
+    "arithmetic_agreement_significant_digits": null,
+    "cutoff_agreement_decimal_places": 5,
+    "cutoff_agreement_significant_digits": 7,
+    "finite_cutoff_minimum": "92.4919008316118783843836778618091",
+    "finite_cutoff_score": "1.594288031296345998070854e-16",
+    "float64_ulp_at_root": "1.4210854715202004e-14",
+    "limiting_diagnostic": "compare cutoff agreement against arithmetic agreement"
+  }
+}

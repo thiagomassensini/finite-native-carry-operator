@@ -1,0 +1,30 @@
+{
+  "title": "Finite Native Carry Operator",
+  "description": "Audit-oriented real-plane laboratory and Lean 4 formalization for finite native carry operators: explicit all-base cameras, centered brackets, CPU/CUDA discovery, arbitrary-precision Ridder localization without Newton, cutoff ledgers, asymptotic tail correction, and an interval-certification roadmap.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "publication_date": "2026-08-05",
+  "creators": [
+    {"name": "Massensini, Thiago"}
+  ],
+  "keywords": [
+    "finite operator",
+    "carry geometry",
+    "centered differences",
+    "real plane",
+    "CUDA",
+    "arbitrary precision",
+    "Ridder method",
+    "interval certification",
+    "Lean 4"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thiagomassensini/native-carry-geometry",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
