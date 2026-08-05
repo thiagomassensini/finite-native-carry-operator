@@ -11,7 +11,7 @@ permissions:
 
 env:
   PYTHONDONTWRITEBYTECODE: "1"
-  ARCHIVE_SHA256: 47bf051659ffdd6df06c6d4a2103d1802a88eea8c236ba0b2af248b9b0531ae7
+  ARCHIVE_SHA256: 5d01f2370f720d89f0046afd682d64545ce5433d6b2d5f628d8218bd71b3d730
 
 concurrency:
   group: repair-finite-native-carry-v0.1.0
