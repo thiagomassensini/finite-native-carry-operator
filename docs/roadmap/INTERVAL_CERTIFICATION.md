@@ -78,10 +78,9 @@ interval.
 The stationary-localization ledger further derives
 \(r_M=(|h_M(c_M)|+\delta_M)/m\) from a common positive slope margin.  For
 ideal corrected roots \(h_M(c_M)=0\), both \(\delta_M\) and \(r_M\) have
-explicit polynomial limits zero.  The remaining Phase D obligations are to
-instantiate the corrected root family for all sufficiently large cutoffs and
-prove \(Q_M\to0\) along it; the finite ladder alone is not an exact-zero
-proof.
+explicit polynomial limits zero.  The ledger constructs that root family from
+its certified threshold; the remaining Phase D obligation is to prove
+\(Q_M\to0\) along it.  The finite ladder alone is not an exact-zero proof.
 
 ## Phase E — Lean ingestion
 

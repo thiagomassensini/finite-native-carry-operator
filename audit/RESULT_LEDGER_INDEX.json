@@ -66,7 +66,7 @@
         65536,
         131072
       ],
-      "corrected_stationary_root_family_constructed_for_all_cutoffs": false,
+      "corrected_stationary_root_family_constructed_from_threshold": true,
       "ideal_corrected_root_radius_witness_tends_to_zero": true,
       "limiting_vector_zero_certified": false,
       "path": "certificates/c3/c3_stationary_localization.json",
@@ -113,7 +113,7 @@
     "A finite stationary minimum is not silently identified with a vector zero.",
     "A finite nested contraction ladder is not silently promoted to an infinite vanishing-bound family.",
     "Uniform decay of the analytic tail component does not establish uniform decay of the corrected-center residual.",
-    "A vanishing-radius formula for ideal corrected roots does not instantiate that root family at every cutoff.",
+    "The corrected-root family and its vanishing localization radii do not establish uniform decay of the corrected-center residual.",
     "The asymptotic consensus radius is empirical."
   ],
   "operator": {

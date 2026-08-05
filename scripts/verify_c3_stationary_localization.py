@@ -210,8 +210,9 @@ def verify_stationary_localization(
         "all_derived_radii_fit_inside_oriented_certificates": True,
         "derived_radii_strictly_contract_on_finite_entries": derived_contract,
         "resultant_and_velocity_remainders_have_polynomial_witnesses": True,
+        "second_derivative_remainder_has_polynomial_witness": True,
         "ideal_corrected_root_radius_witness_tends_to_zero": True,
-        "corrected_stationary_root_family_constructed_for_all_cutoffs": False,
+        "corrected_stationary_root_family_constructed_from_threshold": True,
         "limiting_vector_zero_certified": False,
     }
     if payload["claims"] != expected_claims:

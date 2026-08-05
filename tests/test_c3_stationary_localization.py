@@ -30,9 +30,7 @@ def test_stationary_localization_recomputes_exactly() -> None:
     claims = payload["claims"]
     assert claims["finite_stationary_localization_radii_certified"]
     assert claims["ideal_corrected_root_radius_witness_tends_to_zero"]
-    assert not claims[
-        "corrected_stationary_root_family_constructed_for_all_cutoffs"
-    ]
+    assert claims["corrected_stationary_root_family_constructed_from_threshold"]
     assert not claims["limiting_vector_zero_certified"]
 
 

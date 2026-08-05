@@ -90,24 +90,21 @@ strictly.
 
 ## Exact remaining obligations
 
-The decomposition identifies two remaining infinite statements:
-
-1. construct corrected centers \(c_M\) uniformly and prove \(Q_M\to0\);
-2. construct the nested radii uniformly and prove \(r_M\to0\).
-
-The tail component is complete.  If the two remaining statements are supplied,
-then \(Q_M+\eta_M+Vr_M\to0\), and exact vector vanishing follows.
+The corrected-root family and the nested radii are complete from the certified
+cutoff threshold.  The one remaining infinite statement is to prove
+\(Q_M\to0\) along that family.  The tail component is also complete; once the
+core residual decays, \(Q_M+\eta_M+Vr_M\to0\), and exact vector vanishing
+follows.
 
 The radius implication is refined in
 [`79_C3_STATIONARY_LOCALIZATION.md`](79_C3_STATIONARY_LOCALIZATION.md):
 a common positive stationary-slope margin produces an explicit vanishing
-radius for any cutoff-uniform family of exact corrected stationary roots.
+radius for the certified corrected-root family.
 
 This three-component implication is formalized in Lean as
 `DecomposedVanishingLimitResidualCertificate.witness_zero`.  The present
 ledger correctly retains
-`core_residual_Q_M_infinite_vanishing_family_certified: false`,
-`radius_infinite_vanishing_family_certified: false`, and
+`core_residual_Q_M_infinite_vanishing_family_certified: false` and
 `limiting_vector_zero_certified: false`.
 
 ## Reverification

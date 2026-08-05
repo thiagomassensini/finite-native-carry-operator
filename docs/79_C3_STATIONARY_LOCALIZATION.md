@@ -121,14 +121,9 @@ times those radii in `StationaryLocalizationCertificate`.
 
 ## Remaining boundary
 
-The radius formula and its limit are complete once a cutoff-uniform family of
-exact corrected roots \(h_M(c_M)=0\) is instantiated.  The current ledger
-certifies three such centers to finite decimal residuals, but does not promote
-them to a root family for every cutoff.  It therefore records
-`corrected_stationary_root_family_constructed_for_all_cutoffs: false`.
-
-After that family is constructed, localization is discharged and the only
-substantive residual obligation is proving
+The ledger constructs the unique corrected-root family \(h_M(c_M)=0\) for
+every cutoff at or above its certified threshold.  Localization is therefore
+discharged, and the only substantive residual obligation is proving
 \(Q_M=\lVert A_M(c_M)\rVert\to0\).  Exact limiting vector vanishing is not
 claimed at this stage.
 

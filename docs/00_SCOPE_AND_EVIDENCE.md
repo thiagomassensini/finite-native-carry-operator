@@ -47,12 +47,10 @@ prove that the corrected-center residual \(Q_M\to0\), and construct nested
 radii with \(r_M\to0\).  The implication from these three component limits
 to an exact real-plane zero is formalized in Lean.
 
-The stationary-localization refinement now derives every finite radius from
-the corrected stationary residual and one positive lower bound for
-\(H_\infty'\).  It also proves that the derived radius tends to zero for any
-cutoff-uniform family of exact corrected stationary roots.  Instantiation of
-that root family remains explicit and open; it is not inferred from the three
-finite centers.
+The stationary-localization refinement derives every finite radius from the
+corrected stationary residual and one positive lower bound for
+\(H_\infty'\).  It constructs the unique corrected-root family from the
+certified cutoff threshold and proves that its derived radius tends to zero.
 
 ## Nonclaims
 

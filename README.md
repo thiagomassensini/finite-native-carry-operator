@@ -177,10 +177,9 @@ uses the common slope margin \(H_\infty'>21.426618\) to derive the radius
 \frac{|h_M(c_M)|+\text{stationary tail perturbation}}{21.426618}.
 \]
 
-All three derived radii fit inside the oriented intervals.  For ideal corrected
-roots \(h_M(c_M)=0\), the radius has a proved polynomial limit zero.  A
-cutoff-uniform construction of those exact corrected roots is still required
-before the localization family can be marked complete.
+All three derived radii fit inside the oriented intervals.  The ledger also
+constructs the unique corrected-root family from its certified cutoff threshold;
+for \(h_M(c_M)=0\), the radius has a proved polynomial limit zero.
 
 Lean now contains the exact final bridge: if a cutoff-uniform family bounds
 that fixed energy by nonnegative errors tending to zero, then the limiting
