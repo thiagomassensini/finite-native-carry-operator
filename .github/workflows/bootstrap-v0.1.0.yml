@@ -12,7 +12,7 @@ permissions:
 env:
   PYTHONDONTWRITEBYTECODE: "1"
   RELEASE_TAG: v0.1.0
-  ARCHIVE_SHA256: 2bbc21b02f4e945adfc3c3c5283a176e4aa9d0c32e13c8dbe0f6f4d6df9d1217
+  ARCHIVE_SHA256: 4c088c1e7171ff884b256f07ca6e94dc405b209bc6f8a9faca966ab5eb988a72
 
 jobs:
   install-audit-publish:
